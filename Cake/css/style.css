@@ -6,20 +6,20 @@ body {
 
 @font-face {
     font-family: 'Bebas Neue Regular';
-    src: url('/Cake/fonts/BebasNeueRegular.eot');
-    src: url('/Cake/fonts/BebasNeueRegular.eot?#iefix') format('embedded-opentype'),
-        url('/Cake/fonts/BebasNeueRegular.woff') format('woff'),
-        url('/Cake/fonts/BebasNeueRegular.ttf') format('truetype');
+    src: url('/cake/fonts/BebasNeueRegular.eot');
+    src: url('/cake/fonts/BebasNeueRegular.eot?#iefix') format('embedded-opentype'),
+        url('/cake/fonts/BebasNeueRegular.woff') format('woff'),
+        url('/cake/fonts/BebasNeueRegular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Montserrat Regular';
-    src: url('/Cake/fonts/Montserrat-Regular.eot');
-    src: url('/Cake/fonts/Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
-        url('/Cake/fonts/Montserrat-Regular.eot.woff') format('woff'),
-        url('/Cake/fonts/Montserrat-Regular.eot.ttf') format('truetype');
+    src: url('/cake/fonts/Montserrat-Regular.eot');
+    src: url('/cake/fonts/Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
+        url('/cake/fonts/Montserrat-Regular.eot.woff') format('woff'),
+        url('/cake/fonts/Montserrat-Regular.eot.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
