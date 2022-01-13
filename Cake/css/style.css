@@ -1,0 +1,223 @@
+body {
+    background: linear-gradient(to right, #c5321fb2, #3b3a39), url("berry.jpg");
+    margin: 0;
+    overflow: hidden;
+}
+
+@font-face {
+    font-family: 'Bebas Neue Regular';
+    src: url('/Cake/fonts/BebasNeueRegular.eot');
+    src: url('/Cake/fonts/BebasNeueRegular.eot?#iefix') format('embedded-opentype'),
+        url('/Cake/fonts/BebasNeueRegular.woff') format('woff'),
+        url('/Cake/fonts/BebasNeueRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat Regular';
+    src: url('/Cake/fonts/Montserrat-Regular.eot');
+    src: url('/Cake/fonts/Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
+        url('/Cake/fonts/Montserrat-Regular.eot.woff') format('woff'),
+        url('/Cake/fonts/Montserrat-Regular.eot.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.header-title {
+    height: 455px;
+    width: 600px;
+    font-family: Bebas Neue Regular, sans-serif;
+    font-weight: 900;
+    color: #fff;
+    text-shadow: 10px 10px 15px rgba(0, 0, 0, 0.514);
+    text-transform: uppercase;
+    margin-top: 160px;
+}
+
+.header-find {
+    height: 65px;
+    width: 500px;
+    font-size: 72px;
+    line-height: 72px;
+    margin-left: 168px;
+}
+
+.header-dream {
+    height: 250px;
+    width: 550px;
+    font-size: 248px;
+    line-height: 0.8;
+    margin-left: 163px;
+}
+
+.header-taste {
+    height: 250px;
+    width: 550px;
+    font-size: 248px;
+    line-height: 0.36;
+    margin-left: 170px;
+}
+
+.subtitle {
+    height: 35px;
+    width: 500px;
+    margin-left: 170px;
+    margin-top: 50px;
+    font-family: Montserrat Regular, sans-serif;
+    color: #fff;
+}
+
+.order-button {
+    width: 500px;
+}
+
+.order-button button {
+    border: none;
+    border-radius: 11px;
+    font-size: 18px;
+    padding: 13px 35px;
+    margin-left: 170px;
+    margin-top: 50px;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-family: Montserrat Regular, sans-serif;
+}
+
+.header-species {
+    margin: -225px 0px -100px 900px;
+    width: 120px;
+    font-weight: 900;
+    font-family: Bebas Neue Regular, sans-serif;
+    text-transform: uppercase;
+    font-size: 40px;
+    line-height: 1.5;
+    color: #fff;
+    text-align: end;
+    padding-inline-start: 0px;
+}
+
+.mini-box-up {
+    border: 10px solid #fff;
+    height: 270px;
+    width: 270px;
+    margin: -745px 0px 0px 1450px;
+    transform: rotate(45deg);
+    overflow: hidden;
+    box-shadow: 1px -1px 22px 7px rgba(0, 0, 0, 0.651);
+}
+
+.mini-box-center {
+    border: 10px solid #fff;
+    height: 320px;
+    width: 320px;
+    margin: -100px 0px 0px 1175px;
+    transform: rotate(45deg);
+    overflow: hidden;
+    box-shadow: 1px -1px 22px 7px rgba(0, 0, 0, 0.651);
+}
+
+.mini-box-bottom {
+    border: 10px solid #fff;
+    height: 270px;
+    width: 270px;
+    margin: -25px 0px 0px 1375px;
+    transform: rotate(45deg);
+    overflow: hidden;
+    box-shadow: 1px -1px 22px 7px rgba(0, 0, 0, 0.651);
+}
+
+.mini-box-up img {
+    transform: rotate(-45deg) scale(1.5);
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.mini-box-center img {
+    transform: rotate(-45deg) scale(1.6);
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.mini-box-bottom img {
+    transform: rotate(-45deg) scale(1.5);
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.price-box {
+    background: rgb(117, 14, 14);
+    border: none;
+    height: 200px;
+    width: 200px;
+    margin: -330px 0px 0px 1215px;
+    transform: rotate(45deg);
+    box-shadow: 9px 5px 15px 1px rgba(0, 0, 0, 0.651);
+}
+
+.price-box span {
+    font-size: 86px;
+    font-family: Bebas Neue Regular, sans-serif;
+    color: #fff;
+    font-weight: 900;
+    text-transform: uppercase;
+    writing-mode: tb-rl;
+    transform: rotate(225deg);
+    line-height: 0.9;
+}
+
+.price-box h1 {
+    font-size: 24px;
+    font-family: Bebas Neue Regular, sans-serif;
+    color: #fff;
+    font-weight: 900;
+    text-transform: uppercase;
+    writing-mode: tb-rl;
+    transform: rotate(225deg);
+    margin: auto;
+    text-align: center;
+}
+
+.red-stick-bottom {
+    background: rgb(117, 14, 14);
+    border: none;
+    margin: -103px 0px 0px 1480px;
+    transform: rotate(45deg);
+    width: 600px;
+    height: 100px;
+}
+
+.red-stick-top {
+    background: rgb(117, 14, 14);
+    border: none;
+    margin: -755px 0px 0px 1073px;
+    transform: rotate(45deg);
+    width: 400px;
+    height: 100px;
+}
+
+.red-stick {
+    background: rgb(117, 14, 14);
+    width: 200px;
+    height: 100px;
+    transform: rotate(45deg);
+    margin: -160px 0px 0px 1545px;
+}
+
+.white-stick-top {
+    border: 2px solid #fff;
+    width: 300px;
+    height: 100px;
+    transform: rotate(45deg);
+    margin: -89px 0px 0px 1237px;
+}
+
+.white-stick-bottom {
+    border: 2px solid #fff;
+    width: 435px;
+    height: 100px;
+    transform: rotate(45deg);
+    margin: 460px 0px 0px 1586px;
+}
+
+

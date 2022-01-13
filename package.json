@@ -1,0 +1,16 @@
+{
+  "name": "cake",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d cake"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://Aceptijo.io/cake",
+  "dependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
